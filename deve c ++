@@ -1,0 +1,62 @@
+# Metodo-junta
+Trabalho de programação em c ++.
+#include <iostream>
+#include <stdbool.h>
+#include <stdio.h>
+
+
+namespace std;
+
+cafeina de class { // nome da classe;
+
+// declarando os variaveis.
+	
+int L, X;
+int cafeina1 [6], cafeina2 [6], cafeina3 [12];
+bool rept; // bool é um tipo de dados
+
+public: // método publico para facilitar a edição do usuario.
+
+junta (int array 3 [12]);
+	
+};
+int array::junção (int cafeina 3 [12]){
+			
+		for (L = 0 ; L < 6 ; L ++){
+			cout<< " Digite o valor desejado do primeiro array: " << L << endl;
+			cin >> array1 [L];}
+		
+		for (L = 0 ; L < 6 ; L ++){
+			cout<< " Digite o valor desejado do desejado do segundo array: " << L << endl;
+			cin >> array2 [L];}
+			
+		
+			
+			for (L = 0 ; L < 6 ; L ++){
+			cafeina3[L] = array A[L];}
+		
+		    for (L = 6 ; L < 12 ; L ++){
+			cafeina3[L] = arrayB[L - 6];}
+			
+			for (X = 0 ; X < 12 ; X ++){
+				rept = false;  // indica os numeros que sao repetidos.
+				for ( L = 0 ; L < L ; X ++){
+					if(array 3 [L] == array 3 [L]){
+						rept = true;
+						break;
+	    }
+	 }
+	 int main()
+	 {  // mostra no vetor "resposta" os numeros sao repetidos.
+	 	int arrayC [12];   // tamanho
+	 	
+	 	int * cafeina3;
+	 	cafeina3 = (int *) realocar ( sizeof (int));
+	 	
+	 	array posicao;
+	 	posicao. juncao (cafeinaC);
+
+	
+	return 0;
+}
+	
